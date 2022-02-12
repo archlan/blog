@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[799],{8972:function(s){s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/gpg","name":"gpg","count":1,"permalink":"/tags/gpg"}')}}]);
