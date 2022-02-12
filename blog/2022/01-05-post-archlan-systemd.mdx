@@ -1,0 +1,27 @@
+---
+slug: 02-post-systemd
+title: Start systemd services that weren't automatically enabled
+authors: Lanhild
+tags: [systemd, howto, services]
+---
+
+During the ArchLan ISO building, the file `run_before_squashfs.sh` executes operations in the last steps of the ISO building process.
+Some of these operations might not succesfully work. If you encounter issues, follow the steps in this post to solve them.
+
+```bash
+$ nmcli
+Error: NetworkManager is not running.
+```
+Follow the steps in this post to fix it.
+
+<!--truncate-->
+
+1. In order to get the NetworkManager service unit to work
+```bash
+$ sudo systemctl start NetworkManager.service
+```
+You should now be able to use network connection on your machine.
+
+:::note
+In the case you are facing any other problems related to the ArchLan ISO, submit an issue at [ArchLan:Issues](https://github.com/archlan/iso/issues/new)
+:::

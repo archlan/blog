@@ -1,0 +1,14 @@
+---
+slug: 03-post-lightdm-iso
+title: Lightdm doesn't start on the live ISO
+authors: Lanhild
+tags: [systemd, howto, services, iso]
+---
+
+When booting in the ArchLan live environment, it is possible that the lightdm display manager didn't start automatically. If it's your case, just run this command:
+```bash
+# The password for the liveuser is "archlan"
+$ sudo systemctl start lightdm.service
+```
+
+>This issue will be fixed in the next releases.

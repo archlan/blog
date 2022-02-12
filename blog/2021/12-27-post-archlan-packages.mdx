@@ -1,0 +1,37 @@
+---
+slug: 01-post-packages
+title: Fix an issue with ArchLan packages repository signing
+authors: Lanhild
+tags: [pacman, howto, gpg]
+---
+
+ArchLan Linux has it's own package repository added to the pacman configuration.
+If, at some point, you encounter this error while trying to update;
+
+```bash
+error: archlan-packages: signature from "Lanhild (ArchLan Linux PGP key, made by @Lanhild.) <archlan@protonmail.com>" is unknown trust
+error: failed to synchronize all databases (invalid or corrupted database (PGP signature))
+```
+Follow the steps in this post to fix it.
+
+<!--truncate-->
+
+1. The first step is to import the ArchLan Linux gpg key from the keyserver to your machine:
+
+```bash
+$ sudo pacman-key --recv-keys 5F765E0E531F5B53
+```
+2. By precaution, verify the fingerprint of the key:
+
+```bash
+$ sudo pacman-key --finger 5F765E0E531F5B53
+```
+3. The last step is to locally sign the key:
+
+```bash
+$ sudo pacman-key --lsign-key 5F765E0E531F5B53
+```
+
+:::note
+Once all these steps have been accomplished, you should be able to successfully update and install packages from the ArchLan repository.
+:::
