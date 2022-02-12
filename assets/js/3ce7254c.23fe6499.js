@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[584],{4322:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/pacman","name":"pacman","count":1,"permalink":"/tags/pacman"}')}}]);

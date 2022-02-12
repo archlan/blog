@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://archlan.github.io/</id>
+    <id>https://archlan.github.io/blog/</id>
     <title>Blog - ArchLan Blog</title>
     <updated>2022-02-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://archlan.github.io/"/>
+    <link rel="alternate" href="https://archlan.github.io/blog/"/>
     <subtitle>Blog - ArchLan Blog</subtitle>
-    <icon>https://archlan.github.io/img/logo-alt.svg</icon>
+    <icon>https://archlan.github.io/blog/img/logo-alt.svg</icon>
     <rights>Copyright Lanhild © 2021-2022 | ArchLan Linux</rights>
     <entry>
         <title type="html"><![CDATA[New themes for archlan/i3!]]></title>
         <id>04-new-themes</id>
-        <link href="https://archlan.github.io/04-new-themes"/>
+        <link href="https://archlan.github.io/blog/04-new-themes"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<span]]></summary>
         <content type="html"><![CDATA[<p>A newer interface is now shipped by default with ArchLan.</p><p>Themes have been added with the option to choose between theme, using a simple
@@ -30,7 +30,7 @@ Stay updated on the development of ArchLan and chat with the project maintainer(
     <entry>
         <title type="html"><![CDATA[ArchLan official discord server is open!]]></title>
         <id>03-discord-open</id>
-        <link href="https://archlan.github.io/03-discord-open"/>
+        <link href="https://archlan.github.io/blog/03-discord-open"/>
         <updated>2022-01-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<span]]></summary>
         <content type="html"><![CDATA[<p>The ArchLan official discord server is now open!</p><p>Discuss about issues, share your thoughts and configurations of your ArchLan machine.
@@ -47,7 +47,7 @@ Announcements will be made here.</p><p>Join the <a href="https://discord.com/inv
     <entry>
         <title type="html"><![CDATA[An improved beta v0.2 is now out!]]></title>
         <id>02-beta-release</id>
-        <link href="https://archlan.github.io/02-beta-release"/>
+        <link href="https://archlan.github.io/blog/02-beta-release"/>
         <updated>2022-01-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<span]]></summary>
         <content type="html"><![CDATA[<p>Newer and better!
@@ -66,7 +66,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
     <entry>
         <title type="html"><![CDATA[Lightdm doesn't start on the live ISO]]></title>
         <id>03-post-lightdm-iso</id>
-        <link href="https://archlan.github.io/03-post-lightdm-iso"/>
+        <link href="https://archlan.github.io/blog/03-post-lightdm-iso"/>
         <updated>2022-01-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[When booting in the ArchLan live environment, it is possible that the lightdm display manager didn't start automatically. If it's your case, just run this command:]]></summary>
         <content type="html"><![CDATA[<p>When booting in the ArchLan live environment, it is possible that the lightdm display manager didn't start automatically. If it's your case, just run this command:</p><div class="codeBlockContainer_I0IT language-bash theme-code-block"><div class="codeBlockContent_wNvx bash"><pre tabindex="0" class="prism-code language-bash codeBlock_jd64 thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"># The password for the liveuser is "archlan"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ </span><span class="token function" style="color:rgb(130, 170, 255)">sudo</span><span class="token plain"> systemctl start lightdm.service</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div><blockquote><p>This issue will be fixed in the next releases.</p></blockquote>]]></content>
@@ -82,7 +82,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
     <entry>
         <title type="html"><![CDATA[The first beta release of ArchLan is now out!]]></title>
         <id>01-beta-release</id>
-        <link href="https://archlan.github.io/01-beta-release"/>
+        <link href="https://archlan.github.io/blog/01-beta-release"/>
         <updated>2022-01-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<span]]></summary>
         <content type="html"><![CDATA[<p>The first release of ArchLan is now out!
@@ -100,7 +100,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
     <entry>
         <title type="html"><![CDATA[Start systemd services that weren't automatically enabled]]></title>
         <id>02-post-systemd</id>
-        <link href="https://archlan.github.io/02-post-systemd"/>
+        <link href="https://archlan.github.io/blog/02-post-systemd"/>
         <updated>2022-01-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[During the ArchLan ISO building, the file runbeforesquashfs.sh executes operations in the last steps of the ISO building process.]]></summary>
         <content type="html"><![CDATA[<p>During the ArchLan ISO building, the file <code>run_before_squashfs.sh</code> executes operations in the last steps of the ISO building process.
@@ -116,7 +116,7 @@ Some of these operations might not succesfully work. If you encounter issues, fo
     <entry>
         <title type="html"><![CDATA[Fix an issue with ArchLan packages repository signing]]></title>
         <id>01-post-packages</id>
-        <link href="https://archlan.github.io/01-post-packages"/>
+        <link href="https://archlan.github.io/blog/01-post-packages"/>
         <updated>2021-12-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ArchLan Linux has it's own package repository added to the pacman configuration.]]></summary>
         <content type="html"><![CDATA[<p>ArchLan Linux has it's own package repository added to the pacman configuration.

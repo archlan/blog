@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Blog - ArchLan Blog</title>
-        <link>https://archlan.github.io/</link>
+        <link>https://archlan.github.io/blog/</link>
         <description>Blog - ArchLan Blog</description>
         <lastBuildDate>Sat, 12 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <copyright>Copyright Lanhild © 2021-2022 | ArchLan Linux</copyright>
         <item>
             <title><![CDATA[New themes for archlan/i3!]]></title>
-            <link>https://archlan.github.io/04-new-themes</link>
+            <link>https://archlan.github.io/blog/04-new-themes</link>
             <guid>04-new-themes</guid>
             <pubDate>Sat, 12 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[<span]]></description>
@@ -25,7 +25,7 @@ Stay updated on the development of ArchLan and chat with the project maintainer(
         </item>
         <item>
             <title><![CDATA[ArchLan official discord server is open!]]></title>
-            <link>https://archlan.github.io/03-discord-open</link>
+            <link>https://archlan.github.io/blog/03-discord-open</link>
             <guid>03-discord-open</guid>
             <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[<span]]></description>
@@ -38,7 +38,7 @@ Announcements will be made here.</p><p>Join the <a href="https://discord.com/inv
         </item>
         <item>
             <title><![CDATA[An improved beta v0.2 is now out!]]></title>
-            <link>https://archlan.github.io/02-beta-release</link>
+            <link>https://archlan.github.io/blog/02-beta-release</link>
             <guid>02-beta-release</guid>
             <pubDate>Mon, 17 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[<span]]></description>
@@ -53,7 +53,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
         </item>
         <item>
             <title><![CDATA[Lightdm doesn't start on the live ISO]]></title>
-            <link>https://archlan.github.io/03-post-lightdm-iso</link>
+            <link>https://archlan.github.io/blog/03-post-lightdm-iso</link>
             <guid>03-post-lightdm-iso</guid>
             <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[When booting in the ArchLan live environment, it is possible that the lightdm display manager didn't start automatically. If it's your case, just run this command:]]></description>
@@ -65,7 +65,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
         </item>
         <item>
             <title><![CDATA[The first beta release of ArchLan is now out!]]></title>
-            <link>https://archlan.github.io/01-beta-release</link>
+            <link>https://archlan.github.io/blog/01-beta-release</link>
             <guid>01-beta-release</guid>
             <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[<span]]></description>
@@ -79,7 +79,7 @@ listen to users suggestion in order to make ArchLan better!</p></div></div><h2 c
         </item>
         <item>
             <title><![CDATA[Start systemd services that weren't automatically enabled]]></title>
-            <link>https://archlan.github.io/02-post-systemd</link>
+            <link>https://archlan.github.io/blog/02-post-systemd</link>
             <guid>02-post-systemd</guid>
             <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[During the ArchLan ISO building, the file runbeforesquashfs.sh executes operations in the last steps of the ISO building process.]]></description>
@@ -91,7 +91,7 @@ Some of these operations might not succesfully work. If you encounter issues, fo
         </item>
         <item>
             <title><![CDATA[Fix an issue with ArchLan packages repository signing]]></title>
-            <link>https://archlan.github.io/01-post-packages</link>
+            <link>https://archlan.github.io/blog/01-post-packages</link>
             <guid>01-post-packages</guid>
             <pubDate>Mon, 27 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[ArchLan Linux has it's own package repository added to the pacman configuration.]]></description>

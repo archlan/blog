@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[750],{9245:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/i-3-wm","name":"i3wm","count":1,"permalink":"/blog/tags/i-3-wm"}')}}]);
