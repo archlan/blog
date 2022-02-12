@@ -5,7 +5,7 @@ const config = {
   title: 'Blog - ArchLan',
   tagline: 'ArchLan Blog',
   url: 'https://archlan.github.io',
-  baseUrl: '/',
+  baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo-alt.svg',
