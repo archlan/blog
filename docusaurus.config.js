@@ -35,6 +35,8 @@ const config = {
           showReadingTime: true,
           editUrl: 'https://github.com/archlan/blog/edit/main/',
           postsPerPage: 3,
+          blogSidebarCount: 'ALL',
+          blogDescription: 'The official ArchLan blog, an Arch-based, from school project to a fully-featured distro.',
           feedOptions: {
             type: 'all',
             copyright: `Copyright Lanhild © 2021-${new Date().getFullYear()} | ArchLan Linux`,
