@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[11],{2266:function(e){e.exports=JSON.parse('{"permalink":"/blog/","page":1,"postsPerPage":3,"totalPages":3,"totalCount":7,"previousPage":null,"nextPage":"/blog/page/2","blogDescription":"The official ArchLan blog, an Arch-based, from school project to a fully-featured distro.","blogTitle":"Blog"}')}}]);
